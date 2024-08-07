@@ -103,7 +103,7 @@ export default function Stats() {
           <div class="text-center">
             <p class="text-xs text-left mb-1">Total Revenue</p>
             <div className="flex justify-between items-center">
-              <div class="text-2xl font-bold">$12k</div>
+              <div class="text-2xl font-bold">$2k</div>
               <div class="text-red-500">▼ 3%</div>
             </div>
           </div>
