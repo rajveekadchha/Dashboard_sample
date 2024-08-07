@@ -30,7 +30,7 @@ const FeedbackList = () => {
       <h2 className="text-xl font-bold mb-4 text-justify">
         Customer's Feedback
       </h2>
-      <div className="overflow-y-auto max-h-96 max-sm:max-h-[30rem]">
+      <div className="overflow-y-auto max-h-96 max-sm:max-h-[20rem]">
         <ul>
           {feedbacks.map((feedback) => (
             <li

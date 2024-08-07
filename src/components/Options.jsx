@@ -71,7 +71,7 @@ export default function Options() {
           >
             <div className="flex items-center">
               <div
-                className={`w-16 h-16 flex items-center justify-center rounded-full ${item.bgColor}`}
+                className={`w-16 h-16 max-sm:w-10 max-sm:h-10 flex items-center justify-center rounded-full ${item.bgColor}`}
               >
                 {item.icon}
               </div>

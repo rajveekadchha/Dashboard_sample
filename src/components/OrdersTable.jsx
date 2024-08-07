@@ -50,7 +50,7 @@ const OrdersTable = () => {
   return (
     <div className="p-4  text-white h-[250px] max-sm:h-[400px]">
       <h2 className="text-xl font-bold mb-2 text-justify">Recent Orders</h2>
-      <div className="overflow-x-auto max-h-96 max-sm:max-h-[30rem]">
+      <div className="overflow-x-auto max-h-96 max-sm:max-h-[20rem]">
         <table className="min-w-full ">
           <thead className="sticky top-0 ">
             <tr>
