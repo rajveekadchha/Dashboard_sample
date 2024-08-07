@@ -26,11 +26,11 @@ const feedbacks = [
 
 const FeedbackList = () => {
   return (
-    <div className="p-4 text-white max-h-96 h-[290px] max-sm:h-[377px]">
+    <div className="p-4 text-white ">
       <h2 className="text-xl font-bold mb-4 text-justify">
         Customer's Feedback
       </h2>
-      <div className="overflow-y-auto max-h-96 max-sm:max-h-[20rem]">
+      <div className="overflow-y-auto max-h-[45vh] max-sm:max-h-[40vh]">
         <ul>
           {feedbacks.map((feedback) => (
             <li

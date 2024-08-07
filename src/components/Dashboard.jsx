@@ -64,10 +64,10 @@ const Dashboard = () => {
       </div>
 
       <div className="flex max-sm:flex-col md:h-[55vh] flex-row w-full sm:mb-4">
-        <div className="w-[60vw] max-sm:w-full max-sm:h-[60vh] max-sm:mt-4 bg-cardBg rounded-lg">
+        <div className="w-[60vw] max-sm:w-full max-sm:h-[50vh] max-sm:mt-4 bg-cardBg rounded-lg">
           <OrdersTable />
         </div>
-        <div className="w-[40vw] max-sm:w-full max-sm:h-[60vh] max-sm:mt-4 max-sm:mb-4 sm:ml-4 bg-cardBg rounded-lg">
+        <div className="w-[40vw] max-sm:w-full max-sm:h-[50vh] max-sm:mt-4 max-sm:mb-4 sm:ml-4 bg-cardBg rounded-lg">
           <FeedbackList />
         </div>
       </div>

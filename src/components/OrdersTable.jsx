@@ -48,9 +48,11 @@ const orders = [
 
 const OrdersTable = () => {
   return (
-    <div className="p-4  text-white h-[250px] max-sm:h-[400px]">
-      <h2 className="text-xl font-bold mb-2 text-justify">Recent Orders</h2>
-      <div className="overflow-x-auto max-h-96 max-sm:max-h-[20rem]">
+    <div className="p-4 max-sm:p-1 max-sm:pt-3 text-white ">
+      <h2 className="text-xl font-bold mb-2 text-justify pl-2">
+        Recent Orders
+      </h2>
+      <div className="overflow-x-auto max-h-[45vh] max-sm:max-h-[40vh]">
         <table className="min-w-full ">
           <thead className="sticky top-0 ">
             <tr>
